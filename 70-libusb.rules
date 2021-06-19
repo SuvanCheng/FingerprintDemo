@@ -1,0 +1,5 @@
+# EyeCool usb devices
+ATTRS{idVendor}=="735f",MODE="0666",OWNER="user",GROUP="user"
+# All usb devices
+KERNEL=="sg*",MODE="0666"
+KERNEL=="sd*",MODE="0666"
